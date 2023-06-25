@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+}
+
+
+/* HOME */
+.particlesjs {
+  position: relative;
+  width: 100%;
+  z-index: -10;
+}
+
+.search {
+  width: 100%;
+  height: 20rem;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+.tagsList {
+  display: flex;
+  justify-content: center;
+}
+
+.tagadder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mysearchbartext {
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding: 10px;
+  height: 3rem;
+  width: 30rem;
+  border-radius: 10px;
+  animation-delay: 1ms;
+  text-align: center;
+}
+
+.tagdropdown {
+  width: 30rem;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+p {
+  margin: 1rem;
+}
+
+/* New Question */
+.newquestion {
+  display: flex;
+  justify-content: center;
+}
+
+.choosefiledialog {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2rem;
+  border-radius: 30px;
+  width: 60%;
+  background-color: white;
+  padding-top: 1rem;
+}
+
+.imagecropper {
+  width: 30%;
+}
+
+.newquestionrow {
+  display: flex;
+  justify-content: center;
+}
+
+.dropzone {
+  border: dotted;
+  margin: 3rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  padding: 2rem;
+}
+
+.addquestion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 100%;
+  padding: 1rem;
+}
+
+.addquestionoptionlist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* NAVBAR */
+.mynavbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 0 1rem;
+  text-align: center;
+  height: 5rem;
+  justify-content: space-between;
+}
+
+.myprofile {
+  background-color: black;
+  color: white;
+  margin: 1rem;
+  border: 0ch;
+  font-size: 1rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.navlink {
+  background-color: black;
+  color: white;
+  margin: 1rem;
+  border: 0ch;
+  font-size: 1rem;
+  height: 3rem;
+  cursor: pointer;
+  
+}
+
+.myprofile:hover {
+  background-color: #666;
+}
+
+.mylogo {
+  width: 5rem;
+  margin: 0%;
+}
+
+.q {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 20rem;
+  transition: 0.2s;
+}
+
+.related-topics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.related-topic {
+  margin: 0.5rem;
+}
+
+.image:hover {
+  opacity: 90%;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.line {
+  flex-basis: 100%;;
+  height: 0;
+}
+
+.upload {
+  margin: 0.5rem;
+}
